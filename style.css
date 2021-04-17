@@ -1,6 +1,14 @@
 h1 {
-    color: royalblue;
+    color: #ff6347;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px;
 }
-.btn {
+/* .btn {
     color: purple;
+} */
+
+body {
+    background-color: rgb(245, 208, 190);
+    text-align: center;
 }
