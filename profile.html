@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>My FurEver Pal Profile</h1>
+    <h2>Please enter your information and then click the next button.</h2>
+    <div class="container">
+        <div id="question-container" class="hide"></div>
+
+                <div id="answer-buttons" class="btn-grid">
+                    
+                    <form action="/my-handling-form-page" method="post">
+
+           
+                        <label for="first-name"></label>
+                        <input type="text" id="first-name" name="first-name" value="First name">
+
+                        <label for="last-name"></label>
+                        <input type="text" id="last-name" name="last-name" value="Last name">
+
+                        <label for="address"></label>
+                        <input type="text" id="address" name="address" value="Address">
+
+                        <label for="city"></label>
+                        <input type="text" id="city" name="city" value="City">
+
+                        <label for="state">Select your state:</label>
+                        
+                            <select name="state" id="state">
+                                <option value=""></option>
+                                <option value="Missouri">Missouri</option>
+                                <option value="Kansas">Kansas</option>
+                                <option value="Iowa">Iowa</option>
+                            </select>
+
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="phone" value="Phone (555)555-5555"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                  
+
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" value="Email Address">
+    
+                    </form> 
+                </div>
+        <div class="controls">
+            <!-- <button id="start-btn" class="start-btn btn">Start</button> -->
+            <button id="next-btn" class="next-btn btn">Next</button>
+        </div>
+    </div>
+
+
+<script defer src="app.js"></script>
+</body>
+</html>
