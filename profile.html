@@ -14,11 +14,11 @@
     <h1>My FurEver Pal Profile</h1>
     <h2>Please enter your information and then click the next button.</h2>
     <div class="container">
-        <div id="question-container" class="hide"></div>
+        <div id="form-container" class="hide"></div>
 
-                <div id="answer-buttons" class="btn-grid">
+                <div id="form-questions" class="btn-grid">
                     
-                    <form action="/my-handling-form-page" method="post">
+                    <form action="/profile" id="profileForm">
 
            
                         <label for="first-name"></label>
@@ -48,12 +48,11 @@
 
                         <label for="email"></label>
                         <input type="email" id="email" name="email" value="Email Address">
-    
+                        
+                        <button id="next-btn" class="next-btn btn">Next</button>
                     </form> 
                 </div>
         <div class="controls">
-            <!-- <button id="start-btn" class="start-btn btn">Start</button> -->
-            <button id="next-btn" class="next-btn btn">Next</button>
         </div>
     </div>
 
