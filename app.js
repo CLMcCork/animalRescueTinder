@@ -1,5 +1,6 @@
 "use strict"
 
+//delete the api key when pushing to github!! until i figure out how to hide files :) 
 const apiKey = '';
 
 
